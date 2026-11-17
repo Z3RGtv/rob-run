@@ -1,0 +1,3821 @@
+{
+  "updatedAt": "2026-11-15",
+  "gameVersion": "0.7.0 (dados comunitários)",
+  "sources": [
+    {
+      "name": "ROB RUN Info — fichas de armas",
+      "url": "https://robrun.info/en/items/?g=weapons"
+    },
+    {
+      "name": "ROB RUN Stash — dados do cliente de 12/11/2026",
+      "url": "https://robrunstash.vercel.app/weapons/"
+    },
+    {
+      "name": "ROB RUN Wiki — dados abertos",
+      "url": "https://robrunwiki.com/en/data/"
+    },
+    {
+      "name": "ROB RUN Game — projéteis e recarga",
+      "url": "https://robrungame.com/weapons/?view=damage"
+    }
+  ],
+  "notes": [
+    "46 variantes de 17 famílias de armas de fogo presentes nas tabelas consultadas; não foi confirmada uma categoria de armas brancas utilizáveis.",
+    "Imagens originais de ROB RUN, propriedade da Kefir. Dados comunitários; confirmar alterações no jogo.",
+    "Compra, pesquisa e venda estão separados. Um valor ausente significa não confirmado, nunca gratuito.",
+    "Os intervalos publicados são comprimentos; não há validação suficiente da curva entre pontos. O simulador deve limitar-se ao alcance de dano máximo.",
+    "O cálculo contra armadura não está validado. A ferramenta da ROB RUN Wiki também exclui armadura por não dispor de resistências verificadas.",
+    "As raridades seguem os nomes explícitos de ROB RUN Info; o índice do Stash apresenta uma classificação diferente."
+  ],
+  "weapons": [
+    {
+      "id": "tag12k_m1",
+      "family": "tag12k",
+      "name": "TAG-12K Mk1",
+      "mk": 1,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/tag12k_m1.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 240.0,
+      "magazine": 5,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 8.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 110000.0,
+      "sale": 44000.0,
+      "research": 400000.0,
+      "unlockTier": "III",
+      "prerequisite": "ordr12_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.5,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 17.0,
+          "damage": 4.0
+        },
+        {
+          "length": 15.0,
+          "damage": 1.0
+        },
+        {
+          "length": 110.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/tag12k_m1/",
+        "https://robrunstash.vercel.app/items/tag12k_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 330000.0
+    },
+    {
+      "id": "tag12k_m2",
+      "family": "tag12k",
+      "name": "TAG-12K Mk2",
+      "mk": 2,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/tag12k_m2.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 240.0,
+      "magazine": 5,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 8.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 110000.0,
+      "sale": 44000.0,
+      "research": 800000.0,
+      "unlockTier": "III",
+      "prerequisite": "tag12k_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 22.0,
+          "damage": 4.0
+        },
+        {
+          "length": 10.0,
+          "damage": 1.0
+        },
+        {
+          "length": 110.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/tag12k_m2/",
+        "https://robrunstash.vercel.app/items/tag12k_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "tag12k_m3",
+      "family": "tag12k",
+      "name": "TAG-12K Mk3",
+      "mk": 3,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/tag12k_m3.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 240.0,
+      "magazine": 8,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 10.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 110000.0,
+      "sale": 44000.0,
+      "research": 1600000.0,
+      "unlockTier": "III",
+      "prerequisite": "tag12k_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 22.0,
+          "damage": 4.0
+        },
+        {
+          "length": 10.0,
+          "damage": 1.0
+        },
+        {
+          "length": 108.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/tag12k_m3/",
+        "https://robrunstash.vercel.app/items/tag12k_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "apscalar_m1",
+      "family": "apscalar",
+      "name": "AP Scalar Mk1",
+      "mk": 1,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/apscalar_m1.webp",
+      "damage": 14.0,
+      "pellets": 1,
+      "rpm": 1000.0,
+      "magazine": 25,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 30.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 115000.0,
+      "sale": 46000.0,
+      "research": 400000.0,
+      "unlockTier": "III",
+      "prerequisite": "jp7_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 30.0,
+          "damage": 7.0
+        },
+        {
+          "length": 50.0,
+          "damage": 3.0
+        },
+        {
+          "length": 40.0,
+          "damage": 3.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.7"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/apscalar_m1/",
+        "https://robrunstash.vercel.app/items/apscalar_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 345000.0
+    },
+    {
+      "id": "apscalar_m2",
+      "family": "apscalar",
+      "name": "AP Scalar Mk2",
+      "mk": 2,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/apscalar_m2.webp",
+      "damage": 14.0,
+      "pellets": 1,
+      "rpm": 1000.0,
+      "magazine": 25,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 30.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 115000.0,
+      "sale": 46000.0,
+      "research": 800000.0,
+      "unlockTier": "III",
+      "prerequisite": "apscalar_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 34.0,
+          "damage": 7.0
+        },
+        {
+          "length": 46.0,
+          "damage": 3.0
+        },
+        {
+          "length": 40.0,
+          "damage": 3.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.7"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/apscalar_m2/",
+        "https://robrunstash.vercel.app/items/apscalar_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "apscalar_m3",
+      "family": "apscalar",
+      "name": "AP Scalar Mk3",
+      "mk": 3,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/apscalar_m3.webp",
+      "damage": 14.0,
+      "pellets": 1,
+      "rpm": 1000.0,
+      "magazine": 45,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 34.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 115000.0,
+      "sale": 46000.0,
+      "research": 1600000.0,
+      "unlockTier": "III",
+      "prerequisite": "apscalar_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 34.0,
+          "damage": 7.0
+        },
+        {
+          "length": 46.0,
+          "damage": 3.0
+        },
+        {
+          "length": 36.0,
+          "damage": 3.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.7"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/apscalar_m3/",
+        "https://robrunstash.vercel.app/items/apscalar_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "srreaper_m1",
+      "family": "srreaper",
+      "name": "SR Reaper Mk1",
+      "mk": 1,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/srreaper_m1.webp",
+      "damage": 17.0,
+      "pellets": 1,
+      "rpm": 750.0,
+      "magazine": 20,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 65.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 120000.0,
+      "sale": 48000.0,
+      "research": 400000.0,
+      "unlockTier": "III",
+      "prerequisite": "rc556_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.3,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 40.0,
+          "damage": 9.0
+        },
+        {
+          "length": 30.0,
+          "damage": 4.0
+        },
+        {
+          "length": 15.0,
+          "damage": 4.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/srreaper_m1/",
+        "https://robrunstash.vercel.app/items/srreaper_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 360000.0
+    },
+    {
+      "id": "srreaper_m2",
+      "family": "srreaper",
+      "name": "SR Reaper Mk2",
+      "mk": 2,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/srreaper_m2.webp",
+      "damage": 17.0,
+      "pellets": 1,
+      "rpm": 750.0,
+      "magazine": 20,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 65.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 120000.0,
+      "sale": 48000.0,
+      "research": 800000.0,
+      "unlockTier": "III",
+      "prerequisite": "srreaper_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 9.0
+        },
+        {
+          "length": 25.0,
+          "damage": 4.0
+        },
+        {
+          "length": 15.0,
+          "damage": 4.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/srreaper_m2/",
+        "https://robrunstash.vercel.app/items/srreaper_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "srreaper_m3",
+      "family": "srreaper",
+      "name": "SR Reaper Mk3",
+      "mk": 3,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/srreaper_m3.webp",
+      "damage": 17.0,
+      "pellets": 1,
+      "rpm": 750.0,
+      "magazine": 40,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 70.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 120000.0,
+      "sale": 48000.0,
+      "research": 1600000.0,
+      "unlockTier": "III",
+      "prerequisite": "srreaper_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 9.0
+        },
+        {
+          "length": 25.0,
+          "damage": 4.0
+        },
+        {
+          "length": 10.0,
+          "damage": 4.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/srreaper_m3/",
+        "https://robrunstash.vercel.app/items/srreaper_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "lmg_m2",
+      "family": "lmg",
+      "name": "LM 249 Mk2",
+      "mk": 2,
+      "type": "LMG",
+      "typeLabel": "Metralhadora ligeira",
+      "rarity": 7,
+      "rarityName": "Exótico",
+      "color": "#F47D9B",
+      "icon": "weapons/lmg_m2.webp",
+      "damage": 18.0,
+      "pellets": 1,
+      "rpm": 705.9,
+      "magazine": 200,
+      "reloadSeconds": 5.0,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 4.6,
+      "range": 75.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": null,
+      "sale": 83840.0,
+      "research": null,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [],
+      "spread": [],
+      "notes": [
+        "Não foram publicados intervalos de redução de dano para esta variante.",
+        "Associada ao arsenal da Esquadra; exige o acesso respetivo. Não há compra confirmada nas fontes consultadas.",
+        "Custo de pesquisa não indicado na fonte.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/lmg_m2/",
+        "https://robrunstash.vercel.app/items/lmg_m2/"
+      ],
+      "buySource": null,
+      "armsDealerBuy": null
+    },
+    {
+      "id": "ordr12_m1",
+      "family": "ordr12",
+      "name": "ORDR-12 Mk1",
+      "mk": 1,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/ordr12_m1.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 171.4,
+      "magazine": 6,
+      "reloadSeconds": 0.35,
+      "reloadMode": "per-shell",
+      "fastReloadSeconds": null,
+      "range": 7.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 28000.0,
+      "sale": 11200.0,
+      "research": 160000.0,
+      "unlockTier": "II",
+      "prerequisite": "harris500_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 13.0,
+          "damage": 4.0
+        },
+        {
+          "length": 20.0,
+          "damage": 1.0
+        },
+        {
+          "length": 110.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Recarga cartucho a cartucho; o tempo indicado é por cartucho, não para o carregador completo.",
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/ordr12_m1/",
+        "https://robrunstash.vercel.app/items/ordr12_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 84000.0
+    },
+    {
+      "id": "ordr12_m2",
+      "family": "ordr12",
+      "name": "ORDR-12 Mk2",
+      "mk": 2,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/ordr12_m2.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 171.4,
+      "magazine": 6,
+      "reloadSeconds": 0.35,
+      "reloadMode": "per-shell",
+      "fastReloadSeconds": null,
+      "range": 7.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 28000.0,
+      "sale": 11200.0,
+      "research": 320000.0,
+      "unlockTier": "II",
+      "prerequisite": "ordr12_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 17.0,
+          "damage": 4.0
+        },
+        {
+          "length": 16.0,
+          "damage": 1.0
+        },
+        {
+          "length": 110.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Recarga cartucho a cartucho; o tempo indicado é por cartucho, não para o carregador completo.",
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/ordr12_m2/",
+        "https://robrunstash.vercel.app/items/ordr12_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "ordr12_m3",
+      "family": "ordr12",
+      "name": "ORDR-12 Mk3",
+      "mk": 3,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/ordr12_m3.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 171.4,
+      "magazine": 8,
+      "reloadSeconds": 0.35,
+      "reloadMode": "per-shell",
+      "fastReloadSeconds": null,
+      "range": 9.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 28000.0,
+      "sale": 11200.0,
+      "research": 640000.0,
+      "unlockTier": "III",
+      "prerequisite": "ordr12_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 17.0,
+          "damage": 4.0
+        },
+        {
+          "length": 16.0,
+          "damage": 1.0
+        },
+        {
+          "length": 108.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Recarga cartucho a cartucho; o tempo indicado é por cartucho, não para o carregador completo.",
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/ordr12_m3/",
+        "https://robrunstash.vercel.app/items/ordr12_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "jp7_m1",
+      "family": "jp7",
+      "name": "JP-7 Mk1",
+      "mk": 1,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/jp7_m1.webp",
+      "damage": 15.0,
+      "pellets": 1,
+      "rpm": 750.0,
+      "magazine": 25,
+      "reloadSeconds": 2.2,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 1.9,
+      "range": 27.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 29000.0,
+      "sale": 11600.0,
+      "research": 160000.0,
+      "unlockTier": "II",
+      "prerequisite": "mc10_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 28.0,
+          "damage": 6.0
+        },
+        {
+          "length": 40.0,
+          "damage": 3.0
+        },
+        {
+          "length": 55.0,
+          "damage": 3.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.9"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/jp7_m1/",
+        "https://robrunstash.vercel.app/items/jp7_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 87000.0
+    },
+    {
+      "id": "jp7_m2",
+      "family": "jp7",
+      "name": "JP-7 Mk2",
+      "mk": 2,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/jp7_m2.webp",
+      "damage": 15.0,
+      "pellets": 1,
+      "rpm": 750.0,
+      "magazine": 25,
+      "reloadSeconds": 2.2,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 1.9,
+      "range": 27.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 29000.0,
+      "sale": 11600.0,
+      "research": 320000.0,
+      "unlockTier": "II",
+      "prerequisite": "jp7_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 33.0,
+          "damage": 6.0
+        },
+        {
+          "length": 35.0,
+          "damage": 3.0
+        },
+        {
+          "length": 51.0,
+          "damage": 3.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.9"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/jp7_m2/",
+        "https://robrunstash.vercel.app/items/jp7_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "jp7_m3",
+      "family": "jp7",
+      "name": "JP-7 Mk3",
+      "mk": 3,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/jp7_m3.webp",
+      "damage": 15.0,
+      "pellets": 1,
+      "rpm": 750.0,
+      "magazine": 40,
+      "reloadSeconds": 2.2,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 1.9,
+      "range": 31.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 29000.0,
+      "sale": 11600.0,
+      "research": 640000.0,
+      "unlockTier": "III",
+      "prerequisite": "jp7_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 33.0,
+          "damage": 6.0
+        },
+        {
+          "length": 35.0,
+          "damage": 3.0
+        },
+        {
+          "length": 51.0,
+          "damage": 3.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.9"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/jp7_m3/",
+        "https://robrunstash.vercel.app/items/jp7_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "pdw90_m1",
+      "family": "pdw90",
+      "name": "PDW90 Mk1",
+      "mk": 1,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/pdw90_m1.webp",
+      "damage": 13.0,
+      "pellets": 1,
+      "rpm": 857.1,
+      "magazine": 50,
+      "reloadSeconds": 2.6,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.3,
+      "range": 31.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": null,
+      "sale": 12320.0,
+      "research": null,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [],
+      "spread": [],
+      "notes": [
+        "Não foram publicados intervalos de redução de dano para esta variante.",
+        "Obtida por saque aleatório; não foi confirmada uma oferta de compra.",
+        "Custo de pesquisa não indicado na fonte.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/pdw90_m1/",
+        "https://robrunstash.vercel.app/items/pdw90_m1/"
+      ],
+      "buySource": null,
+      "armsDealerBuy": null
+    },
+    {
+      "id": "pdw90_m2",
+      "family": "pdw90",
+      "name": "PDW90 Mk2",
+      "mk": 2,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/pdw90_m2.webp",
+      "damage": 13.0,
+      "pellets": 1,
+      "rpm": 857.1,
+      "magazine": 50,
+      "reloadSeconds": 2.6,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.3,
+      "range": 31.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": null,
+      "sale": 12320.0,
+      "research": null,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [],
+      "spread": [],
+      "notes": [
+        "Não foram publicados intervalos de redução de dano para esta variante.",
+        "Obtida por saque aleatório; não foi confirmada uma oferta de compra.",
+        "Custo de pesquisa não indicado na fonte.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/pdw90_m2/",
+        "https://robrunstash.vercel.app/items/pdw90_m2/"
+      ],
+      "buySource": null,
+      "armsDealerBuy": null
+    },
+    {
+      "id": "pdw90_m3",
+      "family": "pdw90",
+      "name": "PDW90 Mk3",
+      "mk": 3,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/pdw90_m3.webp",
+      "damage": 13.0,
+      "pellets": 1,
+      "rpm": 857.1,
+      "magazine": 50,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.2,
+      "range": 35.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": null,
+      "sale": 12320.0,
+      "research": null,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [],
+      "spread": [],
+      "notes": [
+        "Não foram publicados intervalos de redução de dano para esta variante.",
+        "Obtida por saque aleatório; não foi confirmada uma oferta de compra.",
+        "Custo de pesquisa não indicado na fonte.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/pdw90_m3/",
+        "https://robrunstash.vercel.app/items/pdw90_m3/"
+      ],
+      "buySource": null,
+      "armsDealerBuy": null
+    },
+    {
+      "id": "rc556_m1",
+      "family": "rc556",
+      "name": "RC 5.56 Mk1",
+      "mk": 1,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/rc556_m1.webp",
+      "damage": 16.0,
+      "pellets": 1,
+      "rpm": 666.7,
+      "magazine": 30,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 55.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 32000.0,
+      "sale": 12800.0,
+      "research": 200000.0,
+      "unlockTier": "II",
+      "prerequisite": "kl545_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.3,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 40.0,
+          "damage": 8.0
+        },
+        {
+          "length": 35.0,
+          "damage": 4.0
+        },
+        {
+          "length": 20.0,
+          "damage": 4.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.25–0.65"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/rc556_m1/",
+        "https://robrunstash.vercel.app/items/rc556_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 96000.0
+    },
+    {
+      "id": "rc556_m2",
+      "family": "rc556",
+      "name": "RC 5.56 Mk2",
+      "mk": 2,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/rc556_m2.webp",
+      "damage": 16.0,
+      "pellets": 1,
+      "rpm": 666.7,
+      "magazine": 30,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 55.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 32000.0,
+      "sale": 12800.0,
+      "research": 400000.0,
+      "unlockTier": "II",
+      "prerequisite": "rc556_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 8.0
+        },
+        {
+          "length": 30.0,
+          "damage": 4.0
+        },
+        {
+          "length": 20.0,
+          "damage": 4.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.25–0.65"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/rc556_m2/",
+        "https://robrunstash.vercel.app/items/rc556_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "rc556_m3",
+      "family": "rc556",
+      "name": "RC 5.56 Mk3",
+      "mk": 3,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/rc556_m3.webp",
+      "damage": 16.0,
+      "pellets": 1,
+      "rpm": 666.7,
+      "magazine": 50,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 60.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 32000.0,
+      "sale": 12800.0,
+      "research": 800000.0,
+      "unlockTier": "III",
+      "prerequisite": "rc556_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 8.0
+        },
+        {
+          "length": 30.0,
+          "damage": 4.0
+        },
+        {
+          "length": 15.0,
+          "damage": 4.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.25–0.65"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/rc556_m3/",
+        "https://robrunstash.vercel.app/items/rc556_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "starh_m1",
+      "family": "starh",
+      "name": "STAR-H Mk1",
+      "mk": 1,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/starh_m1.webp",
+      "damage": 21.0,
+      "pellets": 1,
+      "rpm": 500.0,
+      "magazine": 20,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 50.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 27500.0,
+      "sale": 11000.0,
+      "research": 100000.0,
+      "unlockTier": "II",
+      "prerequisite": "kl545_m1",
+      "requiredSentenceYears": 180.0,
+      "aimSeconds": 0.3,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 55.0,
+          "damage": 11.0
+        },
+        {
+          "length": 45.0,
+          "damage": 5.0
+        },
+        {
+          "length": 50.0,
+          "damage": 5.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.15–0.35"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/starh_m1/",
+        "https://robrunstash.vercel.app/items/starh_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "starh_m2",
+      "family": "starh",
+      "name": "STAR-H Mk2",
+      "mk": 2,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/starh_m2.webp",
+      "damage": 21.0,
+      "pellets": 1,
+      "rpm": 500.0,
+      "magazine": 20,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 50.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 27500.0,
+      "sale": 11000.0,
+      "research": 200000.0,
+      "unlockTier": "II",
+      "prerequisite": "starh_m1",
+      "requiredSentenceYears": 190.0,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 60.0,
+          "damage": 11.0
+        },
+        {
+          "length": 40.0,
+          "damage": 5.0
+        },
+        {
+          "length": 50.0,
+          "damage": 5.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.15–0.35"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/starh_m2/",
+        "https://robrunstash.vercel.app/items/starh_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "starh_m3",
+      "family": "starh",
+      "name": "STAR-H Mk3",
+      "mk": 3,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/starh_m3.webp",
+      "damage": 21.0,
+      "pellets": 1,
+      "rpm": 500.0,
+      "magazine": 40,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 55.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 27500.0,
+      "sale": 11000.0,
+      "research": 400000.0,
+      "unlockTier": "III",
+      "prerequisite": "starh_m2",
+      "requiredSentenceYears": 200.0,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 60.0,
+          "damage": 11.0
+        },
+        {
+          "length": 40.0,
+          "damage": 5.0
+        },
+        {
+          "length": 50.0,
+          "damage": 5.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.15–0.35"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/starh_m3/",
+        "https://robrunstash.vercel.app/items/starh_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "kl545_m1",
+      "family": "kl545",
+      "name": "KL-545 Mk1",
+      "mk": 1,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/kl545_m1.webp",
+      "damage": 15.0,
+      "pellets": 1,
+      "rpm": 600.0,
+      "magazine": 30,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 45.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 6000.0,
+      "sale": 2400.0,
+      "research": 25000.0,
+      "unlockTier": "I",
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.3,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 40.0,
+          "damage": 7.0
+        },
+        {
+          "length": 35.0,
+          "damage": 2.0
+        },
+        {
+          "length": 30.0,
+          "damage": 2.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.3–0.7"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/kl545_m1/",
+        "https://robrunstash.vercel.app/items/kl545_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 18000.0
+    },
+    {
+      "id": "kl545_m2",
+      "family": "kl545",
+      "name": "KL-545 Mk2",
+      "mk": 2,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/kl545_m2.webp",
+      "damage": 15.0,
+      "pellets": 1,
+      "rpm": 600.0,
+      "magazine": 30,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 45.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 6000.0,
+      "sale": 2400.0,
+      "research": 50000.0,
+      "unlockTier": "I",
+      "prerequisite": "kl545_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 7.0
+        },
+        {
+          "length": 30.0,
+          "damage": 2.0
+        },
+        {
+          "length": 30.0,
+          "damage": 2.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.3–0.7"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/kl545_m2/",
+        "https://robrunstash.vercel.app/items/kl545_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "kl545_m3",
+      "family": "kl545",
+      "name": "KL-545 Mk3",
+      "mk": 3,
+      "type": "Rifle",
+      "typeLabel": "Espingarda de assalto",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/kl545_m3.webp",
+      "damage": 15.0,
+      "pellets": 1,
+      "rpm": 600.0,
+      "magazine": 45,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 50.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 6000.0,
+      "sale": 2400.0,
+      "research": 100000.0,
+      "unlockTier": "II",
+      "prerequisite": "kl545_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 7.0
+        },
+        {
+          "length": 30.0,
+          "damage": 2.0
+        },
+        {
+          "length": 25.0,
+          "damage": 2.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.3–0.7"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/kl545_m3/",
+        "https://robrunstash.vercel.app/items/kl545_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "harris500_m1",
+      "family": "harris500",
+      "name": "Harris 500 Mk1",
+      "mk": 1,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/harris500_m1.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 120.0,
+      "magazine": 5,
+      "reloadSeconds": 0.35,
+      "reloadMode": "per-shell",
+      "fastReloadSeconds": null,
+      "range": 7.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3500.0,
+      "sale": 1400.0,
+      "research": 15000.0,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 13.0,
+          "damage": 3.0
+        },
+        {
+          "length": 15.0,
+          "damage": 1.0
+        },
+        {
+          "length": 115.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Recarga cartucho a cartucho; o tempo indicado é por cartucho, não para o carregador completo.",
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/harris500_m1/",
+        "https://robrunstash.vercel.app/items/harris500_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 10500.0
+    },
+    {
+      "id": "harris500_m2",
+      "family": "harris500",
+      "name": "Harris 500 Mk2",
+      "mk": 2,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/harris500_m2.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 120.0,
+      "magazine": 5,
+      "reloadSeconds": 0.35,
+      "reloadMode": "per-shell",
+      "fastReloadSeconds": null,
+      "range": 7.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3500.0,
+      "sale": 1400.0,
+      "research": 30000.0,
+      "unlockTier": "I",
+      "prerequisite": "harris500_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 18.0,
+          "damage": 3.0
+        },
+        {
+          "length": 15.0,
+          "damage": 1.0
+        },
+        {
+          "length": 115.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Recarga cartucho a cartucho; o tempo indicado é por cartucho, não para o carregador completo.",
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/harris500_m2/",
+        "https://robrunstash.vercel.app/items/harris500_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "harris500_m3",
+      "family": "harris500",
+      "name": "Harris 500 Mk3",
+      "mk": 3,
+      "type": "Shotgun",
+      "typeLabel": "Caçadeira",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/harris500_m3.webp",
+      "damage": 9.0,
+      "pellets": 8,
+      "rpm": 120.0,
+      "magazine": 7,
+      "reloadSeconds": 0.35,
+      "reloadMode": "per-shell",
+      "fastReloadSeconds": null,
+      "range": 9.0,
+      "ammo": {
+        "id": "shotgun_ammo_1",
+        "name": "Cartuchos de caçadeira",
+        "icon": "weapons/shotgun_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3500.0,
+      "sale": 1400.0,
+      "research": 60000.0,
+      "unlockTier": "II",
+      "prerequisite": "harris500_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 18.0,
+          "damage": 3.0
+        },
+        {
+          "length": 20.0,
+          "damage": 1.0
+        },
+        {
+          "length": 113.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Recarga cartucho a cartucho; o tempo indicado é por cartucho, não para o carregador completo.",
+        "Dano por projétil. Cada cartucho dispara 8 projéteis; o dano total depende dos que atingem o alvo.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/harris500_m3/",
+        "https://robrunstash.vercel.app/items/harris500_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "vulture50_m1",
+      "family": "vulture50",
+      "name": "Vulture 50 Mk1",
+      "mk": 1,
+      "type": "Sidearm",
+      "typeLabel": "Pistola / revólver",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/vulture50_m1.webp",
+      "damage": 36.0,
+      "pellets": 1,
+      "rpm": 240.0,
+      "magazine": 7,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 40.0,
+      "ammo": {
+        "id": "pistol_ammo_1",
+        "name": "Munição de pistola",
+        "icon": "weapons/pistol_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 50000.0,
+      "sale": 20000.0,
+      "research": 300000.0,
+      "unlockTier": "III",
+      "prerequisite": "lbr44_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.25,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 35.0,
+          "damage": 25.0
+        },
+        {
+          "length": 30.0,
+          "damage": 14.0
+        },
+        {
+          "length": 45.0,
+          "damage": 10.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/vulture50_m1/",
+        "https://robrunstash.vercel.app/items/vulture50_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 150000.0
+    },
+    {
+      "id": "vulture50_m2",
+      "family": "vulture50",
+      "name": "Vulture 50 Mk2",
+      "mk": 2,
+      "type": "Sidearm",
+      "typeLabel": "Pistola / revólver",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/vulture50_m2.webp",
+      "damage": 36.0,
+      "pellets": 1,
+      "rpm": 240.0,
+      "magazine": 7,
+      "reloadSeconds": 2.3,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 40.0,
+      "ammo": {
+        "id": "pistol_ammo_1",
+        "name": "Munição de pistola",
+        "icon": "weapons/pistol_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 50000.0,
+      "sale": 20000.0,
+      "research": 600000.0,
+      "unlockTier": "III",
+      "prerequisite": "vulture50_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.15,
+      "drawSeconds": 0.25,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 40.0,
+          "damage": 25.0
+        },
+        {
+          "length": 30.0,
+          "damage": 14.0
+        },
+        {
+          "length": 40.0,
+          "damage": 10.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–3"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–3"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–3"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/vulture50_m2/",
+        "https://robrunstash.vercel.app/items/vulture50_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "drm14_m1",
+      "family": "drm14",
+      "name": "DRM-14 Mk1",
+      "mk": 1,
+      "type": "DMR",
+      "typeLabel": "Espingarda de precisão",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/drm14_m1.webp",
+      "damage": 34.0,
+      "pellets": 1,
+      "rpm": 240.0,
+      "magazine": 10,
+      "reloadSeconds": 2.5,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.2,
+      "range": 95.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 103500.0,
+      "sale": 41400.0,
+      "research": 200000.0,
+      "unlockTier": "III",
+      "prerequisite": "rc556_m1",
+      "requiredSentenceYears": 950.0,
+      "aimSeconds": 0.3,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 40.0,
+          "damage": 23.0
+        },
+        {
+          "length": 40.0,
+          "damage": 12.0
+        },
+        {
+          "length": 30.0,
+          "damage": 8.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.1–0.15"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/drm14_m1/",
+        "https://robrunstash.vercel.app/items/drm14_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "drm14_m2",
+      "family": "drm14",
+      "name": "DRM-14 Mk2",
+      "mk": 2,
+      "type": "DMR",
+      "typeLabel": "Espingarda de precisão",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/drm14_m2.webp",
+      "damage": 34.0,
+      "pellets": 1,
+      "rpm": 240.0,
+      "magazine": 10,
+      "reloadSeconds": 2.5,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.2,
+      "range": 95.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 103500.0,
+      "sale": 41400.0,
+      "research": 400000.0,
+      "unlockTier": "III",
+      "prerequisite": "drm14_m1",
+      "requiredSentenceYears": 975.0,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 23.0
+        },
+        {
+          "length": 35.0,
+          "damage": 12.0
+        },
+        {
+          "length": 30.0,
+          "damage": 8.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.1–0.15"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/drm14_m2/",
+        "https://robrunstash.vercel.app/items/drm14_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "drm14_m3",
+      "family": "drm14",
+      "name": "DRM-14 Mk3",
+      "mk": 3,
+      "type": "DMR",
+      "typeLabel": "Espingarda de precisão",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/drm14_m3.webp",
+      "damage": 34.0,
+      "pellets": 1,
+      "rpm": 240.0,
+      "magazine": 20,
+      "reloadSeconds": 2.5,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.2,
+      "range": 100.0,
+      "ammo": {
+        "id": "rifle_ammo_1",
+        "name": "Munição de espingarda de assalto",
+        "icon": "weapons/rifle_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 103500.0,
+      "sale": 41400.0,
+      "research": 800000.0,
+      "unlockTier": "III",
+      "prerequisite": "drm14_m2",
+      "requiredSentenceYears": 1000.0,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 45.0,
+          "damage": 23.0
+        },
+        {
+          "length": 35.0,
+          "damage": 12.0
+        },
+        {
+          "length": 25.0,
+          "damage": 8.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.1–0.15"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–3.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–3.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–3.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/drm14_m3/",
+        "https://robrunstash.vercel.app/items/drm14_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "mc10_m1",
+      "family": "mc10",
+      "name": "MC-10 Mk1",
+      "mk": 1,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/mc10_m1.webp",
+      "damage": 12.0,
+      "pellets": 1,
+      "rpm": 666.7,
+      "magazine": 20,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 25.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3500.0,
+      "sale": 1400.0,
+      "research": 15000.0,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 28.0,
+          "damage": 5.0
+        },
+        {
+          "length": 42.0,
+          "damage": 1.0
+        },
+        {
+          "length": 55.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.9"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/mc10_m1/",
+        "https://robrunstash.vercel.app/items/mc10_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 10500.0
+    },
+    {
+      "id": "mc10_m2",
+      "family": "mc10",
+      "name": "MC-10 Mk2",
+      "mk": 2,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/mc10_m2.webp",
+      "damage": 12.0,
+      "pellets": 1,
+      "rpm": 666.7,
+      "magazine": 20,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 25.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3500.0,
+      "sale": 1400.0,
+      "research": 30000.0,
+      "unlockTier": "I",
+      "prerequisite": "mc10_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 33.0,
+          "damage": 5.0
+        },
+        {
+          "length": 37.0,
+          "damage": 1.0
+        },
+        {
+          "length": 51.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.9"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/mc10_m2/",
+        "https://robrunstash.vercel.app/items/mc10_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "mc10_m3",
+      "family": "mc10",
+      "name": "MC-10 Mk3",
+      "mk": 3,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/mc10_m3.webp",
+      "damage": 12.0,
+      "pellets": 1,
+      "rpm": 666.7,
+      "magazine": 40,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.1,
+      "range": 29.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3500.0,
+      "sale": 1400.0,
+      "research": 60000.0,
+      "unlockTier": "II",
+      "prerequisite": "mc10_m2",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 33.0,
+          "damage": 5.0
+        },
+        {
+          "length": 37.0,
+          "damage": 1.0
+        },
+        {
+          "length": 51.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.9"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/mc10_m3/",
+        "https://robrunstash.vercel.app/items/mc10_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "cb45_m1",
+      "family": "cb45",
+      "name": "CB45 Mk1",
+      "mk": 1,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/cb45_m1.webp",
+      "damage": 14.0,
+      "pellets": 1,
+      "rpm": 545.5,
+      "magazine": 25,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 34.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3780.0,
+      "sale": 1512.0,
+      "research": 15000.0,
+      "unlockTier": "I",
+      "prerequisite": "mc10_m1",
+      "requiredSentenceYears": 15.0,
+      "aimSeconds": 0.25,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 32.0,
+          "damage": 9.0
+        },
+        {
+          "length": 38.0,
+          "damage": 2.0
+        },
+        {
+          "length": 46.0,
+          "damage": 2.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.3–0.75"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/cb45_m1/",
+        "https://robrunstash.vercel.app/items/cb45_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "cb45_m2",
+      "family": "cb45",
+      "name": "CB45 Mk2",
+      "mk": 2,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/cb45_m2.webp",
+      "damage": 14.0,
+      "pellets": 1,
+      "rpm": 545.5,
+      "magazine": 25,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 34.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3780.0,
+      "sale": 1512.0,
+      "research": 30000.0,
+      "unlockTier": "I",
+      "prerequisite": "cb45_m1",
+      "requiredSentenceYears": 25.0,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 37.0,
+          "damage": 9.0
+        },
+        {
+          "length": 33.0,
+          "damage": 2.0
+        },
+        {
+          "length": 46.0,
+          "damage": 2.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.3–0.75"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/cb45_m2/",
+        "https://robrunstash.vercel.app/items/cb45_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "cb45_m3",
+      "family": "cb45",
+      "name": "CB45 Mk3",
+      "mk": 3,
+      "type": "SMG",
+      "typeLabel": "Submetralhadora",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/cb45_m3.webp",
+      "damage": 14.0,
+      "pellets": 1,
+      "rpm": 545.5,
+      "magazine": 40,
+      "reloadSeconds": 2.4,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 40.0,
+      "ammo": {
+        "id": "mp_ammo_1",
+        "name": "Munição de submetralhadora",
+        "icon": "weapons/mp_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 3780.0,
+      "sale": 1512.0,
+      "research": 60000.0,
+      "unlockTier": "II",
+      "prerequisite": "cb45_m2",
+      "requiredSentenceYears": 35.0,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Auto",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 37.0,
+          "damage": 9.0
+        },
+        {
+          "length": 33.0,
+          "damage": 2.0
+        },
+        {
+          "length": 40.0,
+          "damage": 2.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.3–0.75"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/cb45_m3/",
+        "https://robrunstash.vercel.app/items/cb45_m3/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "lbr44_m1",
+      "family": "lbr44",
+      "name": "LBR-44 Mk1",
+      "mk": 1,
+      "type": "Sidearm",
+      "typeLabel": "Pistola / revólver",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/lbr44_m1.webp",
+      "damage": 34.0,
+      "pellets": 1,
+      "rpm": 200.0,
+      "magazine": 6,
+      "reloadSeconds": 2.5,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.2,
+      "range": 35.0,
+      "ammo": {
+        "id": "pistol_ammo_1",
+        "name": "Munição de pistola",
+        "icon": "weapons/pistol_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 20000.0,
+      "sale": 8000.0,
+      "research": 100000.0,
+      "unlockTier": "II",
+      "prerequisite": "dp9_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 30.0,
+          "damage": 20.0
+        },
+        {
+          "length": 40.0,
+          "damage": 8.0
+        },
+        {
+          "length": 45.0,
+          "damage": 8.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–5.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/lbr44_m1/",
+        "https://robrunstash.vercel.app/items/lbr44_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 60000.0
+    },
+    {
+      "id": "lbr44_m2",
+      "family": "lbr44",
+      "name": "LBR-44 Mk2",
+      "mk": 2,
+      "type": "Sidearm",
+      "typeLabel": "Pistola / revólver",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/lbr44_m2.webp",
+      "damage": 34.0,
+      "pellets": 1,
+      "rpm": 200.0,
+      "magazine": 6,
+      "reloadSeconds": 2.5,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 2.0,
+      "range": 35.0,
+      "ammo": {
+        "id": "pistol_ammo_1",
+        "name": "Munição de pistola",
+        "icon": "weapons/pistol_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 20000.0,
+      "sale": 8000.0,
+      "research": 200000.0,
+      "unlockTier": "II",
+      "prerequisite": "lbr44_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.15,
+      "drawSeconds": 0.35,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 35.0,
+          "damage": 20.0
+        },
+        {
+          "length": 35.0,
+          "damage": 8.0
+        },
+        {
+          "length": 45.0,
+          "damage": 8.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–5.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/lbr44_m2/",
+        "https://robrunstash.vercel.app/items/lbr44_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    },
+    {
+      "id": "dp9_m1",
+      "family": "dp9",
+      "name": "DP-9 Mk1",
+      "mk": 1,
+      "type": "Sidearm",
+      "typeLabel": "Pistola / revólver",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/dp9_m1.webp",
+      "damage": 18.0,
+      "pellets": 1,
+      "rpm": 333.3,
+      "magazine": 14,
+      "reloadSeconds": 2.2,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 1.9,
+      "range": 20.0,
+      "ammo": {
+        "id": "pistol_ammo_1",
+        "name": "Munição de pistola",
+        "icon": "weapons/pistol_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 300.0,
+      "sale": 120.0,
+      "research": null,
+      "unlockTier": null,
+      "prerequisite": null,
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.2,
+      "drawSeconds": 0.25,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 24.0,
+          "damage": 8.0
+        },
+        {
+          "length": 26.0,
+          "damage": 1.0
+        },
+        {
+          "length": 80.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "2–4.5"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4.5"
+        },
+        {
+          "stance": "Moving",
+          "value": "2.5–4.5"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "Custo de pesquisa não indicado na fonte.",
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/dp9_m1/",
+        "https://robrunstash.vercel.app/items/dp9_m1/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": 900.0
+    },
+    {
+      "id": "dp9_m2",
+      "family": "dp9",
+      "name": "DP-9 Mk2",
+      "mk": 2,
+      "type": "Sidearm",
+      "typeLabel": "Pistola / revólver",
+      "rarity": 2,
+      "rarityName": "Incomum",
+      "color": "#5DD29A",
+      "icon": "weapons/dp9_m2.webp",
+      "damage": 18.0,
+      "pellets": 1,
+      "rpm": 333.3,
+      "magazine": 14,
+      "reloadSeconds": 2.2,
+      "reloadMode": "magazine",
+      "fastReloadSeconds": 1.9,
+      "range": 20.0,
+      "ammo": {
+        "id": "pistol_ammo_1",
+        "name": "Munição de pistola",
+        "icon": "weapons/pistol_ammo_1.webp"
+      },
+      "headMultiplier": 1.5,
+      "buy": 300.0,
+      "sale": 120.0,
+      "research": 25000.0,
+      "unlockTier": "I",
+      "prerequisite": "dp9_m1",
+      "requiredSentenceYears": null,
+      "aimSeconds": 0.15,
+      "drawSeconds": 0.25,
+      "fireMode": "Single",
+      "durability": null,
+      "damageIntervals": [],
+      "rawDamageIntervals": [
+        {
+          "length": 31.0,
+          "damage": 8.0
+        },
+        {
+          "length": 21.0,
+          "damage": 1.0
+        },
+        {
+          "length": 78.0,
+          "damage": 1.0
+        }
+      ],
+      "spread": [
+        {
+          "stance": "Aiming",
+          "value": "0.2–0.6"
+        },
+        {
+          "stance": "Standing",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Crouching",
+          "value": "1.5–4"
+        },
+        {
+          "stance": "Moving",
+          "value": "2–4"
+        },
+        {
+          "stance": "Jumping",
+          "value": "6.5–8"
+        }
+      ],
+      "notes": [
+        "A durabilidade exata não está publicada na fonte."
+      ],
+      "sources": [
+        "https://robrun.info/en/items/dp9_m2/",
+        "https://robrunstash.vercel.app/items/dp9_m2/"
+      ],
+      "buySource": "Portátil de comércio",
+      "armsDealerBuy": null
+    }
+  ],
+  "throwables": [
+    {
+      "id": "frag_grenade_1",
+      "name": "Granada de Fragmentação",
+      "effect": "Causa dano na área da explosão.",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/frag_grenade_1.webp",
+      "buy": 14960.0,
+      "sale": 5984.0,
+      "research": 75000.0,
+      "unlockTier": "II",
+      "fuseSeconds": 3.0,
+      "maxDamage": 300.0,
+      "stack": 5,
+      "source": "https://robrun.info/en/items/frag_grenade_1/",
+      "notes": [
+        "Raio e duração do efeito não confirmados na fonte.",
+        "Disponível como saque na Esquadra; não representa uma garantia de aparecimento."
+      ]
+    },
+    {
+      "id": "flash_grenade_1",
+      "name": "Granada de Luz",
+      "effect": "Cega temporariamente os inimigos.",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/flash_grenade_1.webp",
+      "buy": 4000.0,
+      "sale": 1600.0,
+      "research": 25000.0,
+      "unlockTier": "I",
+      "fuseSeconds": 2.0,
+      "maxDamage": null,
+      "stack": 5,
+      "source": "https://robrun.info/en/items/flash_grenade_1/",
+      "notes": [
+        "Raio e duração do efeito não confirmados na fonte.",
+        "Disponível como saque na Esquadra; não representa uma garantia de aparecimento."
+      ]
+    },
+    {
+      "id": "gas_grenade_1",
+      "name": "Granada de Gás",
+      "effect": "Cria uma nuvem de gás venenoso.",
+      "rarity": 6,
+      "rarityName": "Lendário",
+      "color": "#F7CA64",
+      "icon": "weapons/gas_grenade_1.webp",
+      "buy": null,
+      "sale": 15092.0,
+      "research": null,
+      "unlockTier": null,
+      "fuseSeconds": null,
+      "maxDamage": null,
+      "stack": 5,
+      "source": "https://robrun.info/en/items/gas_grenade_1/",
+      "notes": [
+        "Raio e duração do efeito não confirmados na fonte.",
+        "Disponível como saque na Esquadra; não representa uma garantia de aparecimento."
+      ]
+    },
+    {
+      "id": "smoke_grenade_1",
+      "name": "Granada de Fumo",
+      "effect": "Cria uma cortina de fumo.",
+      "rarity": 5,
+      "rarityName": "Épico",
+      "color": "#BB83EE",
+      "icon": "weapons/smoke_grenade_1.webp",
+      "buy": null,
+      "sale": 2016.0,
+      "research": null,
+      "unlockTier": null,
+      "fuseSeconds": 2.0,
+      "maxDamage": null,
+      "stack": 5,
+      "source": "https://robrun.info/en/items/smoke_grenade_1/",
+      "notes": [
+        "Raio e duração do efeito não confirmados na fonte.",
+        "Disponível como saque na Esquadra; não representa uma garantia de aparecimento."
+      ]
+    }
+  ],
+  "ammunition": [
+    {
+      "id": "pistol_ammo_1",
+      "name": "Munição de pistola",
+      "icon": "weapons/pistol_ammo_1.webp",
+      "shortName": "Pistola",
+      "stack": 60,
+      "source": "https://robrun.info/en/items/pistol_ammo_1/"
+    },
+    {
+      "id": "shotgun_ammo_1",
+      "name": "Cartuchos de caçadeira",
+      "icon": "weapons/shotgun_ammo_1.webp",
+      "shortName": "Caçadeira",
+      "stack": 60,
+      "source": "https://robrun.info/en/items/shotgun_ammo_1/"
+    },
+    {
+      "id": "mp_ammo_1",
+      "name": "Munição de submetralhadora",
+      "icon": "weapons/mp_ammo_1.webp",
+      "shortName": "SMG",
+      "stack": 360,
+      "source": "https://robrun.info/en/items/mp_ammo_1/"
+    },
+    {
+      "id": "rifle_ammo_1",
+      "name": "Munição de espingarda de assalto",
+      "icon": "weapons/rifle_ammo_1.webp",
+      "shortName": "Espingarda",
+      "stack": 360,
+      "source": "https://robrun.info/en/items/rifle_ammo_1/"
+    }
+  ],
+  "maintenance": {
+    "repair": false,
+    "durabilityLoss": "death",
+    "source": "https://store.steampowered.com/news/app/4262460/view/717921532895036113"
+  }
+}
